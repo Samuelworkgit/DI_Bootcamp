@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Grid Exercise 1</title>
+        <style>
+            div{
+                border: 1px solid;
+                padding: 5px;
+            }
+            #gridcontainer{
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                /* grid-template-rows: repeat(3, 2fr); */
+                /* column-gap: 10px; */
+                /* row-gap: 20px; */
+                column-gap: 20px;
+                row-gap: 20px;
+                grid-template-areas: 
+                "red1 blue1"
+                "red2 blue2"
+                "red3 blue3"
+                "yellow1 yellow1";
+
+            }
+
+            .redcolor{
+                background-color: #EA9999;
+                height: 100px;
+            }
+
+            .bluecolor{
+                background-color: #9FC5F8;
+                height: 100px;
+            }
+
+            #leftup{
+                grid-area: red1;
+            }
+            #rightup{
+                grid-area: blue1;
+            }
+            #midleft{
+                grid-area: red2;
+            }
+            #midright{
+                grid-area: blue2;
+            }
+            #leftdown{
+                grid-area: red3
+            }
+            #rightdown{
+                grid-area: blue3;
+            }
+
+            .yellowcolor{
+                background-color: #FFE599;
+                height: 100px;
+            }
+            #footer{
+                grid-area: yellow1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="gridcontainer">
+            <div class="redcolor" id="leftup"></div>
+            <div class="bluecolor" id="rightup"></div>
+            <div class="redcolor" id="midleft"></div>
+            <div class="bluecolor" id="midright"></div>
+            <div class="redcolor" id="leftdown"></div>
+            <div class="bluecolor" id="rightdown"></div>
+            <div class="yellowcolor" id="footer"></div>
+        </div>
+    </body>
+
+</html>

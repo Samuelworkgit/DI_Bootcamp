@@ -1,0 +1,33 @@
+/* #title{
+    color: blueviolet;
+    padding: 10px;
+} */
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: green; */
+    /* text-decoration: underline; */
+    border-style: solid;
+    /* border-width: 50px; */
+    border-color: #27C76B;
+    background-color: #C0F7D7;
+    /* margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+    padding: 30px;
+    /* border: 100px; */
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+body{
+    background-color:white;
+}
+
+/* .formual {
+    color: blue;
+    border: 5px;
+} */

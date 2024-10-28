@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Flexbox Exercise 3</title>
+        <style>
+            .flexcontainer {
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                height: 70px;
+                width: 500px;
+                padding: 10px;
+                border-color: red;
+                
+            }
+
+            div {
+                border: 1px solid;
+                margin: 0px;
+            }
+
+            div.item {
+                border: 0px;
+                height: 20px;
+                /* align-content: stretch; */
+            }
+
+            #b1 {
+                width: 10%;
+                /* height: 100px; */
+            }
+
+            #b2 {
+                width: 45%;
+                /* height:100px; */
+            }
+
+            #b3 {
+                width: 45%;
+                /* height: 100px; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexcontainer">
+            <div class="item" id="b1" style="background-color: #909BED;">LOGO</div>
+            <div class="item" id="b2" style="background-color: #94D4FB;">Team</div>
+            <div class="item" id="b3" style="background-color: #F08C81;">Products</div>
+        </div>
+    </body>
+
+</html>

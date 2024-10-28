@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>First Landing Page</title>
+        <style>
+
+            #gridcontainer{
+                border: solid 1px;
+                background-image:url(./map.jpg);
+                /* width: 600px;
+                height: 400px; */
+                padding: 20px;
+                display: grid;
+                column-gap: 30px;
+                row-gap: 10px;
+                grid-template-areas: 
+                "header header header"
+                "poweredby activeusers sold"
+                "tina corrine chris"
+            }
+
+            #box1{
+                grid-area: header;
+            }
+            #box1 p{
+                text-align: center;
+                font-size: 40px;
+                padding-bottom: 0px;
+            }
+
+            #box2{
+                grid-area: poweredby;
+            }
+            #box2 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 1px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+            
+
+            #box3 {
+                grid-area: activeusers;
+                p {
+                    text-align: center;
+                }
+            }
+            #box3 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 1px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+
+            #box4{
+                grid-area: sold;
+                p {
+                    text-align: center;
+                }
+            }
+            #box4 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 1px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+
+            #box5{
+                grid-area: tina;
+                border: 0px solid black;
+            }
+            #box5 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 20px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+
+            #box6{
+                grid-area: corrine;
+                border: 0px solid black;
+                display: flex;
+                flex-direction: column;
+                align-self: flex-end;
+            }
+            #box6 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 20px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+
+            #box7{
+                grid-area: chris ;
+                border: 0px solid black;
+            }
+            #box7 p {
+                margin: 0;  /* Remove default paragraph margins */
+                padding: 20px;  /* Add padding instead for spacing inside */
+                text-align: center;
+            }
+
+            .descriptiontext{
+                border: 1px white;
+                color: #7C8994;
+                background-color: white;
+                padding: 10px;
+                text-align:left;
+            }
+
+            #tina{
+                color: white;
+                background-color: #FB8B8A;
+            }
+
+            #corrine{
+                color: white;
+                background-color: #5C6AC4;
+                padding: 10px;
+            }
+
+            #chris{
+                color: white;
+                background-color: #47C1BF;
+            }
+
+            #number{
+                font-size:40px;
+                color: #5C6AC4;
+            }
+
+            #undernumber{
+                font-size:x-small;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id="gridcontainer">
+            <div id="box1"><p>Shopify Powers Ambitious entrepreneurs all over the world</p></div>
+            <div id="box2"><p id="number">500,000</p><p id="undernumber">BUSINESSES POWERED BY SHOPIFY</p></div>
+            <div id="box3"><p id="number">1,000,000+</p><p id="undernumber">ACTIVE USERS</p></div>
+            <div id="box4"><p id="number">$46B+</p><p id="undernumber">SOLD ON SHOPIFY</p></div>
+            <div id="box5">
+                <div>
+                    <p class="descriptiontext">I am seriously happy about running our store on Shopify. Powerful features and easy to set up, running an online store shouldn't be this much fun!</p>
+                    <P id="tina">Tina Roth Eisenberg<br>Designer, Founder of Tattly</p>
+                </div>
+            </div>
+            <div id="box6">
+                <div>
+                    <p class="descriptiontext">Shopify has helped me grow my business amazingly. It's been a pleasure because everything has been easier than I ever imagined.</p>                
+                    <P id="corrine">Corrine Anestopoulos<br>Founder, BIKO Jewelry</p>
+                </div>
+            </div>
+            <div id="box7">
+                <div>
+                    <p class="descriptiontext">The best thing about Shopify is that it's made me not have to worry about anything that has to do with ecommerce.</p>        
+                    <P id="chris">Chris Tsang<br>Founder, Mindzai Toys</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

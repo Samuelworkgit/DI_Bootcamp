@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Samuel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .firstcontent {
+            background-image: url('./eberhard-grossgasteiger-eo1xRUAM0Ok-unsplash.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 95vh;
+            /* Add these properties to make firstcontent a flex container */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .name {
+            color: white;
+            margin: 0; /* Remove default margin from h1 */
+        }
+
+        .description {
+            color: white;
+            text-align: center; /* Center the text within the paragraph */
+            margin: 10px 0 0 0; /* Add some space between h1 and p */
+        }
+        .aboutme {
+            background-color:floralwhite;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 95vh;
+            /* Add these properties to make firstcontent a flex container */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .headeraboutme {
+            color:darkgray;
+            margin: 20px 0 0 0; /* Remove default margin from h1 */
+        }
+
+        .descriptonaboutme {
+            color: darkgray;
+            text-align: center; /* Center the text within the paragraph */
+            margin: 10px 0 20px 0; /* Add some space between h1 and p */
+        }
+        .contentaboutme{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10rem;
+        }
+        .gettoknowme{
+            margin: 0 0 0 40px;
+        }
+        .myskills {
+            margin: 0 0 40px 0;
+        }
+
+        .myskills h3 {
+            margin-bottom: 20px;
+        }
+
+        .myskills p {
+            display: inline-block;
+            padding: 8px 16px;
+            /* margin: 5px; */
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        /* Make the container use flexbox for better alignment */
+        .myskills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        /* Make h3 take full width */
+        .myskills h3 {
+            width: 100%;
+        }
+        #projects {
+            background-color:white;
+        }
+        .dopefolio {
+            margin: 0 0 40px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .dopefolio img {
+            margin-bottom: 20px;
+            width: 690px;
+            height: 408px;
+        }
+
+        .dopefolio p {
+        }
+
+        /* Make h3 take full width */
+        .dopefolio h3 {
+            width: 100%;
+        }
+    </style>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Samuel Frédéric</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+          </div>
+        </div>
+    </nav>
+    <div class="firstcontent">
+        <h1 class="name">i am samuel frédéric</h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+            Architecto quis expedita quae omnis minima, beatae nemo libero illo</p>
+    </div>
+    <div class="aboutme">
+        <h1 class="headeraboutme">about me</h1>
+        <p class="descriptonaboutme">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+            Architecto quis expedita quae omnis minima, beatae nemo libero illo</p>
+        <div class="contentaboutme">
+            <div class="gettoknowme">
+                <h3>get to know me!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia provident repudiandae alias similique doloremque voluptatum fugit magni tempore, accusamus eos porro delectus, cumque natus distinctio quas? Exercitationem, explicabo accusantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia provident repudiandae alias similique doloremque voluptatum fugit magni tempore, accusamus eos porro delectus, cumque natus distinctio quas? Exercitationem, explicabo accusantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia provident repudiandae alias similique doloremque voluptatum fugit magni tempore, accusamus eos porro delectus, cumque natus distinctio quas? Exercitationem, explicabo accusantium.</p>
+                
+            </div>
+            <div class="myskills">
+                <h3>my skills</h3>
+                <p>html</p>
+                <p>asnible</p>
+                <p>css</p>
+                <p>python</p>
+                <p>powershell</p>
+                <p>sql</p>
+                <p>javascript</p>
+                <p>typescript</p>
+                <p>rust</p>
+                <p>bash</p>
+            </div>
+        </div>
+    </div>
+    <div class="aboutme" id="projects">
+        <h1 class="headeraboutme">projects</h1>
+        <p class="descriptonaboutme">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+            Architecto quis expedita quae omnis minima, beatae nemo libero illo</p>
+        <div class="contentaboutme">
+            <div class="gettoknowme">
+                <img src="./daniil-silantev-2XKR-38TxbU-unsplash.jpg">
+            </div>
+            <div class="dopefolio">
+                <h3>Dopefolio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+        </div>
+        <div class="contentaboutme">
+            <div class="gettoknowme">
+                <img src="./karsten-winegeart-CKgUSvhS_0w-unsplash.jpg">
+            </div>
+            <div class="dopefolio">
+                <h3>Dopefolio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+        </div>
+        <div class="contentaboutme">
+            <div class="gettoknowme">
+                <img src="./manuel-cavasin-kY0CmRjGCNc-unsplash.jpg">
+            </div>
+            <div class="dopefolio">
+                <h3>Dopefolio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

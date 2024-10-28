@@ -1,0 +1,55 @@
+#underline{
+text-decoration: underline;
+border-style: solid;
+background-color:#C0F7D7;
+border-color:#27C76B;
+border-style:ridge;
+padding: 30px
+}
+
+#blue{
+    border-style: solid;
+    border-color: blue;
+    background-color: blue;
+    width: 5em;
+    height: 10em;
+    display: inline-block;
+}
+
+#white{
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    width: 5em;
+    height: 10em;
+    display: inline-block;
+}
+
+#red{
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    width: 5em;
+    height: 10em;
+    display: inline-block;
+}
+
+#secondli {
+    background-color: blue;
+  }
+
+#uppbold li{
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+div p:first-child {
+    background-color: pink;
+    color: white;
+}
+
+div p:last-child {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Grid Exercise 2</title>
+        <style>
+            div{
+                border: 1px solid;
+                padding: 5px;
+            }
+            #gridcontainer{
+                width: 600px;
+                height: 700px;
+                padding: 20px;
+                display: grid;
+                /* grid-template-columns: 1fr 3fr; */
+                /* grid-template-rows: repeat(3, 2fr); */
+                column-gap: 3px;
+                row-gap: 3px;
+                grid-template-areas: 
+                "header header header"
+                "hero maincontent maincontent"
+                "sidebar maincontent maincontent"
+                "sidebar extracontent extracontent"
+                "relatedimages relatedimages relatedposts"
+                "footer footer footer";
+                /* "header header"
+                "hero maincontent"
+                "sidebar extracontent"
+                "relatedimages relatedposts"
+                "footer footer"; */
+
+            }
+
+            #blueheader{
+                background-color: #54D5EB;
+                grid-area: header;
+            }
+
+            #purplehero{
+                grid-area: hero;
+                background-color: #D7C9E3;
+                grid-template-columns: 1fr;
+            }
+
+            #yellowmaincontent{
+                grid-area: maincontent;
+                background-color: #F5C632;
+                grid-template-columns: 2fr;
+            }
+
+            #greensidebar{
+                grid-area: sidebar;
+                background-color: #9FC363;
+                grid-template-columns: 1fr;
+            }
+
+            #greyextracontent{
+                grid-area: extracontent;
+                background-color: #898989;
+                grid-template-columns: 2fr;
+            }
+
+            #greenrelatedimages{
+                grid-area: relatedimages;
+                background-color: #2BB673;
+                grid-template-columns: 2fr;
+            }
+
+            #pinkrelatedposts{
+                grid-area: relatedposts;
+                background-color: #F3CCDE;
+                grid-template-columns: 1fr;
+            }
+
+            #yellowfooter{
+                grid-area: footer;
+                background-color: #FFA500;
+            }
+
+            p{
+                font-size: 22;
+                color: white;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="gridcontainer">
+            <div id="blueheader"><p>Header</p></div>
+            <div id="purplehero"><p>Hero</p></div>
+            <div id="yellowmaincontent"><p>Main Content</p></div>
+            <div id="greensidebar"><p>Sidebar</p></div>
+            <div id="greyextracontent"><p>Extra Content</p></div>
+            <div id="greenrelatedimages"><p>Related Images</p></div>
+            <div id="pinkrelatedposts"><p>Related Posts</p></div>
+            <div id="yellowfooter"><p>Footer</p></div>
+        </div>
+    </body>
+</html>
+

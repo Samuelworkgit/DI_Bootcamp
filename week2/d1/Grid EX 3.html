@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Grid Exercise 2</title>
+        <style>
+
+            #gridcontainer{
+                border: solid 1px;
+                width: 600px;
+                height: 400px;
+                padding: 20px;
+                display: grid;
+                column-gap: 8px;
+                row-gap: 8px;
+                grid-template-areas: 
+                "header header header"
+                "two three four"
+                "two five five"
+                "six six seven"
+                "footer footer footer";
+
+            }
+
+            #box1{
+                background-color: #B8336A;
+                grid-area: header;
+            }
+
+            #box2{
+                background-color: #726DA8;
+                grid-area: two;
+            }
+
+            #box3{
+                background-color: #7C8CC4;
+                grid-area: three;
+            }
+
+            #box4{
+                background-color: #9FD2DB;
+                grid-area: four;
+            }
+
+            #box5{
+                background-color: #C490D2;
+                grid-area: five;
+            }
+
+            #box6{
+                background-color: #B8336A;
+                grid-area: six;
+            }
+
+            #box7{
+                background-color: #726DA8;
+                grid-area: seven;
+            }
+
+            #box8{
+                background-color: #7C8CC4;
+                grid-area: footer;
+            }
+            
+            p{
+                font-size: 22;
+                color: white;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="gridcontainer">
+            <div id="box1"><p>1</p></div>
+            <div id="box2"><p>2</p></div>
+            <div id="box3"><p>3</p></div>
+            <div id="box4"><p>4</p></div>
+            <div id="box5"><p>5</p></div>
+            <div id="box6"><p>6</p></div>
+            <div id="box7"><p>7</p></div>
+            <div id="box8"><p>8</p></div>
+        </div>
+    </body>
+</html>
+
