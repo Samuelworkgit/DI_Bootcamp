@@ -1,0 +1,164 @@
+body {
+    background-color: #0B132B;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    background-color: #1C2541;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #6FFFE9;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #6FFFE9 !important;
+}
+
+/* artists */
+.maindisplay {
+    background-image: url(https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 76px;
+}
+
+.maindisplay h1 {
+    color: #6FFFE9;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.maindisplay .date {
+    color: #5BC0BE;
+    margin: 2rem 0;
+}
+
+.btnBlue {
+    background-color: #5BC0BE;
+    border-color: #5BC0BE;
+    padding: 0.75rem 2rem;
+    transition: all 0.3s ease;
+}
+
+.btnBlue:hover {
+    background-color: #6FFFE9;
+    border-color: #fff;
+}
+
+/* artist Section */
+.artist {
+    background-color: #1C2541;
+    padding: 5rem 0;
+}
+
+.card {
+    background-color: #3A506B;
+    border: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    color: #6FFFE9;
+}
+
+.btn-outline-primary {
+    color: #6FFFE9;
+    border-color: #6FFFE9;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6FFFE9;
+    color: #1C2541;
+}
+
+/* timings */
+
+.timing {
+    background-color: #0B132B;
+    padding: 5rem 0;
+}
+
+.stage-timing {
+    background-color: #3A506B;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.stage-timing h3 {
+    color: #6FFFE9;
+    margin-bottom: 1.5rem;
+}
+
+.stage-timing li {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+/* buy tickets */
+.tickets {
+    background-color: #1C2541;
+    padding: 5rem 0;
+}
+
+.ticket-card {
+    background-color: #3A506B;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+.ticket-card h3 {
+    color: #6FFFE9;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    color: #5BC0BE;
+    margin: 1rem 0;
+}
+
+.ticket-card ul {
+    margin: 2rem 0;
+}
+
+.ticket-card li {
+    margin-bottom: 1rem;
+}
+
+.bi-check-circle {
+    color: #6FFFE9;
+    margin-right: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #0B132B;
+    padding: 3rem 0;
+    color: white;
+}
+
+.footer h4 {
+    color: #6FFFE9;
+    margin-bottom: 1.5rem;
+}
