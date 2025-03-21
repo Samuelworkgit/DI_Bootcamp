@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background-color: #6b5bcf;
+    background-image: url('./circuit-pattern.png');
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #4dce90;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+}
+
+
+.title {
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.searchContainer {
+    padding: 15px;
+    background-color: #4dce90;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+
+.card {
+    background-color: #4cc1c1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.card-image-container {
+    background-color: #2a3047;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+
+.card-info {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.card-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+
+
+.card-email {
+    font-size: 14px;
+    color: #333;
+}
+
